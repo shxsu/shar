@@ -2,8 +2,18 @@
     font-weight: normal;
     font-size: 185%;
     color: rgb(197, 26, 120);
-    font-family:monospace
+    font-family:monospace;
+    position:relative; bottom: -1px; top: 5px;
 }
+.title1{
+    font-weight: normal;
+    font-size: 185%;
+    color: rgb(197, 26, 120);
+    font-family:monospace;
+    position: relative; left: 84rem; bottom: 25px; bottom: 1.799em; right: 8em;
+   
+}
+
 .paragraph{
     font-size: large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -13,3 +23,4 @@
 .paragraphbuttons{
     text-decoration: none;
 }
+
