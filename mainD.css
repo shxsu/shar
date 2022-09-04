@@ -82,7 +82,17 @@ a{
         margin-right: auto;
         max-width: 50%;
 }
-body
+@media (prefers-color-scheme: light)
 {
+  body
+  {
+    background-color: white;
+  }
+}
+@media (prefers-color-scheme: dark)
+{
+  body
+  {
     background-color: black;
+  }
 }
