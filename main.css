@@ -62,6 +62,13 @@ a{
         margin-right: auto;
         max-width: 50%;
 }
+code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 1px;
+    font-size: 105%;
+  }
 @media (prefers-color-scheme: light)
 {
     
