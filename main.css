@@ -62,13 +62,7 @@ a{
         margin-right: auto;
         max-width: 50%;
 }
-code {
-    font-family: Consolas,"courier new";
-    color: crimson;
-    background-color: #f1f1f1;
-    padding: 1px;
-    font-size: 105%;
-  }
+
   .paragraphBig
   {
     font-size: large;
@@ -79,6 +73,13 @@ code {
 
 @media (prefers-color-scheme: light)
 {
+  code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 1px;
+    font-size: 105%;
+  }
     
 .paragraph{
     font-size: large;
@@ -120,7 +121,14 @@ code {
 }
 @media (prefers-color-scheme: dark)
 {
-    
+   
+  code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #8b7f7f61;
+    padding: 1px;
+    font-size: 105%;
+  }
 .paragraph{
     font-size: large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
