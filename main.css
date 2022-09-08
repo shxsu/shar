@@ -109,6 +109,14 @@ code {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
   }
+  .paragraphBig
+  {
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+  }
 }
 @media (prefers-color-scheme: dark)
 {
@@ -142,5 +150,13 @@ code {
   body
   {
     background-color: black;
+  }
+  .paragraphBig
+  {
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
   }
 }
