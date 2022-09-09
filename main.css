@@ -107,6 +107,7 @@ a{
     background-color: #f1f1f1;
     padding: 1px;
     font-size: 105%;
+    animation: transitionIn 0.75s;
   }
     
 .paragraph{
@@ -114,10 +115,12 @@ a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: black;
+    animation: transitionIn 0.75s;
 }
 .paragraphbuttons
 {
     text-decoration: none;
+    animation: transitionIn 0.75s;
 }
   body
   {
@@ -130,6 +133,7 @@ a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: rgb(197, 26, 120);
+    animation: transitionIn 0.75s;
   }
   .paragraphbuttonsLarge
   {
@@ -137,6 +141,7 @@ a{
     color: rgb(197, 26, 120);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
+    animation: transitionIn 0.75s;
   }
   .paragraphBig
   {
@@ -145,6 +150,7 @@ a{
     text-decoration: none;
     font-size: 23px;
     color: black;
+    animation: transitionIn 0.75s;
   }
 }
 @media (prefers-color-scheme: dark)
@@ -156,12 +162,14 @@ a{
     background-color: #96969661;
     padding: 1px;
     font-size: 105%;
+    animation: transitionIn 0.75s;
   }
 .paragraph{
     font-size: large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: white;
+    animation: transitionIn 0.75s;
 }
 .paragraphDark
 {
@@ -169,12 +177,14 @@ a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: yellow;
+    animation: transitionIn 0.75s;
 }
 .paragraphbuttons
 {
     text-decoration: none;
     color: yellow;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: transitionIn 0.75s;
 }
 .paragraphbuttonsLarge
 {
@@ -182,6 +192,7 @@ a{
     color: yellow;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
+    animation: transitionIn 0.75s;
 }
   body
   {
@@ -194,5 +205,6 @@ a{
     text-decoration: none;
     font-size: 23px;
     color: white;
+    animation: transitionIn 0.75s;
   }
 }
