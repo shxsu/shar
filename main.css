@@ -5,6 +5,15 @@
     font-family:monospace;
     position:relative; bottom: -1px; top: 5px;
     animation: transitionIn 0.4s;
+    transition: color 400ms linear;
+}
+.title:hover{
+  font-weight: normal;
+    font-size: 195%;
+    color: rgb(219, 25, 132);
+    font-family:monospace;
+    position:relative; bottom: -1px; top: 5px;
+    animation: transitionIn 0.4s;
 }
 
 .title1{
