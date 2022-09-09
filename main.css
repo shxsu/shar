@@ -110,6 +110,9 @@ a{
 
 @media (prefers-color-scheme: light)
 {
+  body{
+    animation: transitionIn 0.4s;
+  }
   code {
     font-family: Consolas,"courier new";
     color: crimson;
@@ -205,6 +208,7 @@ a{
 }
   body
   {
+    animation: transitionIn 0.4s;
     background-color: black;
   }
   .paragraphBig
