@@ -4,6 +4,7 @@
     color: rgb(197, 26, 120);
     font-family:monospace;
     position:relative; bottom: -1px; top: 5px;
+    animation: transitionIn 0.75s;
 }
 
 .title1{
@@ -12,16 +13,19 @@
     color: rgb(197, 26, 120);
     font-family:monospace;
     position: relative; left: 84rem; bottom: 25px; bottom: 1.799em; right: 8em;
+    animation: transitionIn 0.75s;
    
 }
 
 a{
     position: relative; 
+    animation: transitionIn 0.75s;
 }
 
 .video
 {
     position: relative; left: 30em;
+    animation: transitionIn 0.75s;
 }
 .titleJ
 {
@@ -30,6 +34,7 @@ a{
     color: rgb(197, 26, 120);
     font-family:monospace;
     position:relative; bottom: -2px; top: 5px; 
+    animation: transitionIn 0.75s;
 }
 
 .titleB
@@ -39,6 +44,7 @@ a{
     color: rgb(197, 26, 120);
     font-family:monospace;
     align-items: center;
+    animation: transitionIn 0.75s;
 
 }
 .paragraph1
@@ -47,6 +53,8 @@ a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: coral;
+    transition: color 400ms linear;
+    animation: transitionIn 0.75s;
 }
 .paragraph1:hover
 {
@@ -61,6 +69,7 @@ a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: rgb(156, 156, 156);
+    animation: transitionIn 0.75s;
 }
 .responsiveImg
 {
@@ -68,6 +77,7 @@ a{
         margin-left: auto;
         margin-right: auto;
         max-width: 50%;
+        animation: transitionIn 0.75s;
 }
 
   .paragraphBig
@@ -76,6 +86,17 @@ a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     font-size: 23px;
+    animation: transitionIn 0.75s;
+  }
+  @keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg)
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0)
+    }
   }
 
 @media (prefers-color-scheme: light)
