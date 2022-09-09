@@ -4,7 +4,7 @@
     color: rgb(197, 26, 120);
     font-family:monospace;
     position:relative; bottom: -1px; top: 5px;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
 }
 
 .title1{
@@ -13,19 +13,19 @@
     color: rgb(197, 26, 120);
     font-family:monospace;
     position: relative; left: 84rem; bottom: 25px; bottom: 1.799em; right: 8em;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
    
 }
 
 a{
     position: relative; 
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
 }
 
 .video
 {
     position: relative; left: 30em;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
 }
 .titleJ
 {
@@ -34,7 +34,7 @@ a{
     color: rgb(197, 26, 120);
     font-family:monospace;
     position:relative; bottom: -2px; top: 5px; 
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
 }
 
 .titleB
@@ -44,7 +44,7 @@ a{
     color: rgb(197, 26, 120);
     font-family:monospace;
     align-items: center;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
 
 }
 .paragraph1
@@ -54,7 +54,7 @@ a{
     text-decoration: none;
     color: coral;
     transition: color 400ms linear;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
 }
 .paragraph1:hover
 {
@@ -69,7 +69,7 @@ a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: rgb(156, 156, 156);
-    animation: transitionIn 0.55s;
+    animation: transitionIn 0.4s;
 }
 .responsiveImg
 {
@@ -77,7 +77,7 @@ a{
         margin-left: auto;
         margin-right: auto;
         max-width: 50%;
-        animation: transitionIn 0.5s;
+        animation: transitionIn 0.4s;
 }
 
   .paragraphBig
@@ -86,7 +86,7 @@ a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     font-size: 23px;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
   }
   @keyframes transitionIn {
     from{
@@ -107,7 +107,7 @@ a{
     background-color: #f1f1f1;
     padding: 1px;
     font-size: 105%;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
   }
     
 .paragraph{
@@ -115,12 +115,12 @@ a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: black;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
 }
 .paragraphbuttons
 {
     text-decoration: none;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
 }
   body
   {
@@ -133,7 +133,7 @@ a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: rgb(197, 26, 120);
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
   }
   .paragraphbuttonsLarge
   {
@@ -141,7 +141,7 @@ a{
     color: rgb(197, 26, 120);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
   }
   .paragraphBig
   {
@@ -150,7 +150,7 @@ a{
     text-decoration: none;
     font-size: 23px;
     color: black;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
   }
 }
 @media (prefers-color-scheme: dark)
@@ -162,14 +162,14 @@ a{
     background-color: #96969661;
     padding: 1px;
     font-size: 105%;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
   }
 .paragraph{
     font-size: large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: white;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
 }
 .paragraphDark
 {
@@ -177,14 +177,14 @@ a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: yellow;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
 }
 .paragraphbuttons
 {
     text-decoration: none;
     color: yellow;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
 }
 .paragraphbuttonsLarge
 {
@@ -192,7 +192,7 @@ a{
     color: yellow;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4s;
 }
   body
   {
@@ -205,6 +205,6 @@ a{
     text-decoration: none;
     font-size: 23px;
     color: white;
-    animation: transitionIn 0.5s;
+    animation: transitionIn 0.4;
   }
 }
