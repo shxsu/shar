@@ -78,9 +78,7 @@ a{
         margin-right: auto;
         max-width: 50%;
 }
-.autotype{
-  text-decoration: none;
-}
+
 
   .paragraphBig
   {
@@ -111,6 +109,9 @@ a{
     color: crimson;
     padding: 1px;
     font-size: 105%;
+  }
+  .autotype{
+    text-decoration: none;
   }
     
 .paragraph{
