@@ -102,7 +102,7 @@ a{
 {
   body{
     background-color: white;
-    animation: transitionIn 0.4s;
+    animation: transitionIn 0.5s;
   }
   code {
     font-family: Consolas,"courier new";
@@ -152,7 +152,7 @@ a{
 {
   body
   {
-    animation: transitionIn 0.4s;
+    animation: transitionIn 0.5s;
     background-color: black;
   }
    
