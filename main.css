@@ -86,12 +86,34 @@ a{
         margin-right: auto;
         max-width: 99%;
 }
-.responsiveLarge
+.responsiveImgLarge
 {
         display: block;
         margin-left: auto;
         margin-right: auto;
         max-width: 120%;
+}
+.responsiveImgLargeCustom
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 130%;
+}
+
+.responsiveImgXLarge
+{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 140%;
+}
+
+.responsiveImgXXLarge{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 180%;
 }
 
 
