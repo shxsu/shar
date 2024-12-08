@@ -24,6 +24,28 @@
    
 }
 
+.btn{
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  font-family: monospace;
+  height: 75px;
+  width: 100px;
+  background-color: lime;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+.btn:hover{
+  font-weight: normal;
+  font-size: 25px;
+  background-color: blue;
+  color: white;
+}
+.buttons{
+  display: flex;
+  text-align: center;
+
+}
 a{
     position: relative; 
 }

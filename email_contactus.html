@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Contact Us</title>
+    <title>Contact Us By Mail</title>
 </head>
 <body>
+    <header>
+        <span>
+            <p class="title" style="text-align: center;">Email Us By Mail</p>
+        </span>
+    </header>
+    <p class="paragraph" style="text-align: center;">Email: shahraanpasale@gmail.com Click Below To Copy:</p>
+   <div class="buttons"><button class="btn" onclick="copyText()">Copy</button></div>
+
+    <script>
+        function copyText() {
+
+            /* Copy text into clipboard */
+            navigator.clipboard.writeText
+                ("shahraanpasale@gmail.com");
+        }
+    </script>
     
 </body>
 </html>
